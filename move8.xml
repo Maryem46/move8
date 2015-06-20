@@ -46,33 +46,7 @@
                               </block>
                             </value>
                             <next>
-                              <block type="movement_left" id="81">
-                                <next>
-                                  <block type="robot_delay" id="158" inline="true">
-                                    <value name="DELAY">
-                                      <block type="math_number" id="262">
-                                        <field name="NUM">5000</field>
-                                      </block>
-                                    </value>
-                                    <next>
-                                      <block type="movement_reverse" id="71">
-                                        <next>
-                                          <block type="robot_delay" id="160" inline="true">
-                                            <value name="DELAY">
-                                              <block type="math_number" id="255">
-                                                <field name="NUM">5000</field>
-                                              </block>
-                                            </value>
-                                            <next>
-                                              <block type="movement_stop" id="295"></block>
-                                            </next>
-                                          </block>
-                                        </next>
-                                      </block>
-                                    </next>
-                                  </block>
-                                </next>
-                              </block>
+                              <block type="movement_stop" id="295"></block>
                             </next>
                           </block>
                         </next>
